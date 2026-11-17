@@ -9,3 +9,10 @@
 .portrait,.portrait.reveal,.portrait.reveal.visible{transform:none;margin-inline:auto}
 .feature-photo figcaption{display:flex;flex-direction:column;align-items:center;gap:5px;text-align:center}
 .feature-photo figcaption span{float:none}
+
+/* Marco fotográfico plateado con paspartú violeta. */
+.feature-photo,.photo-pair figure,.portrait{padding:clamp(16px,3vw,25px);border:8px ridge #c4b2d3;background:linear-gradient(135deg,#3c284f,#241631);box-shadow:0 18px 40px #06010c80,inset 0 0 0 1px #f6e5ff55,inset 0 0 22px #0a021b80;border-radius:3px}
+.feature-photo .photo-open{aspect-ratio:1.19;isolation:isolate;box-shadow:0 2px 9px #0009}
+.feature-photo .photo-open img{width:112%;max-width:none;height:auto;transform:translateX(-10.7143%)}
+.feature-photo figcaption,.photo-pair figcaption,.portrait figcaption{padding:20px 4px 2px}
+@media(max-width:600px){.feature-photo,.photo-pair figure,.portrait{border-width:6px;padding:12px}.feature-photo figcaption,.photo-pair figcaption,.portrait figcaption{padding-top:14px}}
